@@ -9,7 +9,7 @@ expandButtons.forEach(button => {
     const childBody = parentCard.querySelector(".card-body");
     childBody.classList.toggle("show");
     if (childBody.classList.contains("show")) {
-      button.innerText = "-";
+      button.innerText = "X";
     } else {
       button.innerText = "Learn";
     }
